@@ -90,10 +90,10 @@
         "./mdc-imports"
       ],
       "#ui": [
-        "../../node_modules/@nuxt/ui/dist/runtime"
+        "../node_modules/@nuxt/ui/dist/runtime"
       ],
       "#ui/*": [
-        "../../node_modules/@nuxt/ui/dist/runtime/*"
+        "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
         "./ui.colors"
@@ -110,12 +110,6 @@
       "#tailwind-config/*": [
         "./tailwind.config/*"
       ],
-      "#nuxt-component-meta": [
-        "./component-meta"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d"
-      ],
       "#vue-router": [
         "./vue-router-stub"
       ],
@@ -123,7 +117,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/87aae739-17df-44ec-9bb1-769a3dad8b36.json"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
@@ -167,18 +161,15 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/@nuxt/ui/runtime",
     "../node_modules/@nuxt/fonts/runtime",
-    "../node_modules/nuxt-component-meta/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/nuxt-site-config/dist/runtime",
     "../node_modules/nuxt-og-image/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
-    "..",
-    "../../node_modules/@nuxt/ui/dist/runtime"
+    ".."
   ],
   "exclude": [
     "../node_modules",
-    "../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/ui-pro/modules/pro/node_modules",
     "../node_modules/nuxt-site-config/dist/node_modules",
@@ -190,7 +181,6 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",

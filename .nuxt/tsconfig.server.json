@@ -101,10 +101,10 @@
         "./mdc-imports"
       ],
       "#ui": [
-        "../../node_modules/@nuxt/ui/dist/runtime"
+        "../node_modules/@nuxt/ui/dist/runtime"
       ],
       "#ui/*": [
-        "../../node_modules/@nuxt/ui/dist/runtime/*"
+        "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
         "./ui.colors"
@@ -116,13 +116,10 @@
         "./color-mode-options"
       ],
       "#tailwind-config": [
-        "./tailwind"
+        "./tailwind.config"
       ],
-      "#nuxt-component-meta": [
-        "./component-meta"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d"
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
       ],
       "#internal/nuxt-site-config": [
         "../node_modules/nuxt-site-config/dist/runtime/nitro/composables"
@@ -145,7 +142,6 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",
@@ -157,7 +153,6 @@
   ],
   "exclude": [
     "../node_modules",
-    "../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/ui-pro/modules/pro/node_modules",
     "../node_modules/nuxt-site-config/dist/node_modules",

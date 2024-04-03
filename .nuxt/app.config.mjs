@@ -4,7 +4,7 @@ import { defuFn } from 'defu'
 
 const inlineConfig = {
   "nuxt": {
-    "buildId": "87aae739-17df-44ec-9bb1-769a3dad8b36"
+    "buildId": "dev"
   },
   "ui": {
     "primary": "green",
@@ -40,7 +40,7 @@ if (import.meta.hot) {
   })
 }
 
-import cfg0 from "/workspace/EKS-Workshop/my-docs/app.config.ts"
-import cfg1 from "/workspace/EKS-Workshop/my-docs/node_modules/@nuxt/ui-pro/app.config.ts"
+import cfg0 from "/workspace/EKS-Workshop/app.config.ts"
+import cfg1 from "/workspace/EKS-Workshop/node_modules/@nuxt/ui-pro/app.config.ts"
 
 export default /*@__PURE__*/ defuFn(cfg0, cfg1, inlineConfig)

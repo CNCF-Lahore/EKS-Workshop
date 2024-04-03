@@ -1,4 +1,4 @@
-import _Highlight from '/workspace/EKS-Workshop/my-docs/node_modules/@nuxtjs/mdc/dist/runtime/highlighter/rehype-nuxt.mjs'
+import _Highlight from '/workspace/EKS-Workshop/node_modules/@nuxtjs/mdc/dist/runtime/highlighter/rehype-nuxt.mjs'
 
 export const remarkPlugins = {
 }

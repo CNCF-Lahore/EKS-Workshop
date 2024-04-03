@@ -3,8 +3,8 @@
 // App Config
 import type { Defu } from 'defu'
 
-import type { default as appConfig0 } from "/workspace/EKS-Workshop/my-docs/app.config";
-import type { default as appConfig1 } from "/workspace/EKS-Workshop/my-docs/node_modules/@nuxt/ui-pro/app.config";
+import type { default as appConfig0 } from "/workspace/EKS-Workshop/app.config";
+import type { default as appConfig1 } from "/workspace/EKS-Workshop/node_modules/@nuxt/ui-pro/app.config";
 
 type UserAppConfig = Defu<{}, [typeof appConfig0, typeof appConfig1]>
 
