@@ -10,7 +10,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template',
+    siteName: 'AWS EKS Workshop',
   },
   header: {
     logo: {
@@ -22,55 +22,40 @@ export default defineAppConfig({
     colorMode: true,
     links: [{
       icon: 'i-simple-icons-github',
-      to: 'https://github.com/nuxt-ui-pro/docs',
+      to: 'https://github.com/CNCF-Lahore/EKS-Workshop',
       target: '_blank',
-      'aria-label': 'Docs template on GitHub'
+      'aria-label': 'Become a Contributor'
     }]
   },
   footer: {
-    credits: 'Copyright © 2023',
+    credits: 'This wont be possible without these contributors',
     colorMode: false,
     links: [{
       icon: 'i-simple-icons-nuxtdotjs',
-      to: 'https://nuxt.com',
+      to: 'https://www.kcdlahore.org',
       target: '_blank',
-      'aria-label': 'Nuxt Website'
+      'aria-label': 'Website'
     }, {
-      icon: 'i-simple-icons-discord',
-      to: 'https://discord.com/invite/ps2h6QT',
+      icon: 'i-simple-icons-slack',
+      to: 'https://join.slack.com/t/cncflahore/shared_invite/zt-2egtejr9w-pAcNZ0YG8rPtXUyhoIelXQ',
       target: '_blank',
-      'aria-label': 'Nuxt UI on Discord'
-    }, {
-      icon: 'i-simple-icons-x',
-      to: 'https://x.com/nuxt_js',
-      target: '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'Join Slack'
     }, {
       icon: 'i-simple-icons-github',
-      to: 'https://github.com/nuxt/ui',
+      to: 'https://github.com/CNCF-Lahore/EKS-Workshop',
       target: '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Become a Contributor'
     }]
   },
   toc: {
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/nuxt-ui-pro/docs/edit/main/content',
+      edit: 'https://github.com/CNCF-Lahore/EKS-Workshop/tree/main/content',
       links: [{
         icon: 'i-heroicons-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank',
-      }, {
-        icon: 'i-heroicons-book-open',
-        label: 'Nuxt UI Pro docs',
-        to: 'https://ui.nuxt.com/pro/guide',
-        target: '_blank',
-      }, {
-        icon: 'i-simple-icons-nuxtdotjs',
-        label: 'Purchase a license',
-        to: 'https://ui.nuxt.com/pro/purchase',
+        to: 'https://github.com/CNCF-Lahore/EKS-Workshop',
         target: '_blank',
       }]
     }

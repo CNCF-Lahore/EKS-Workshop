@@ -1,0 +1,46 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Update this to match your default branch if necessary
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'  # Use whatever Node.js version your project requires
+
+      - name: Cache Yarn Dependencies
+        uses: actions/cache@v2
+        with:
+          path: |
+            .yarn/cache
+            node_modules
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Build
+        env:
+          NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}  
+
+        run: yarn generate
+
+      # - name: Deploy to GitHub Pages
+      #   uses: JamesIves/github-pages-deploy-action@4.1.4
+      #   with:
+      #     branch: ghpages  # Ensure this is the branch you want to deploy to.
+      #     folder: .output/public  # Ensure this correctly points to your build output directory.
+      #     token: ${{ secrets.ORG_TOKEN }}  # Consider using the default GITHUB_TOKEN if you're not deploying to a different repo.
+      #     clean: true

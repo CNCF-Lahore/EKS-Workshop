@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     '/api/search.json': { prerender: true },
   },
   devtools: {
-    enabled: true
+    enabled: false
   },
   typescript: {
     strict: false

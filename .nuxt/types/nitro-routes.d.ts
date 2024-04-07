@@ -7,49 +7,49 @@ declare module 'nitropack' {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/search.json.get').default>>>>
     }
     '/__nuxt_error': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt/dist/core/runtime/nitro/renderer').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt@3.11.1_@unocss+reset@0.58.7_eslint@8.57.0_floating-vue@5.2.2_typescript@5.4.3_unocss@0.5_vsbprmu4pg7oexd74mctklo3aa/node_modules/nuxt/dist/core/runtime/nitro/renderer').default>>>>
     }
     '/api/_mdc/highlight': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxtjs/mdc/dist/runtime/highlighter/event-handler').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/highlighter/event-handler').default>>>>
     }
     '/__site-config__/debug.json': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-site-config/dist/runtime/nitro/routes/__site-config__/debug').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-site-config@1.6.7_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4_we3wzvecqybchgar6wa7djdtbe/node_modules/nuxt-site-config/dist/runtime/nitro/routes/__site-config__/debug').default>>>>
     }
     '/api/og-image-html': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-og-image/dist/runtime/nitro/routes/html').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4.38_z22fxm2eigevacibj3ing5qswi/node_modules/nuxt-og-image/dist/runtime/nitro/routes/html').default>>>>
     }
     '/api/og-image-options': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-og-image/dist/runtime/nitro/routes/options').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4.38_z22fxm2eigevacibj3ing5qswi/node_modules/nuxt-og-image/dist/runtime/nitro/routes/options').default>>>>
     }
     '/api/og-image-svg': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-og-image/dist/runtime/nitro/routes/svg').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4.38_z22fxm2eigevacibj3ing5qswi/node_modules/nuxt-og-image/dist/runtime/nitro/routes/svg').default>>>>
     }
     '/api/og-image-vnode': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-og-image/dist/runtime/nitro/routes/vnode').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4.38_z22fxm2eigevacibj3ing5qswi/node_modules/nuxt-og-image/dist/runtime/nitro/routes/vnode').default>>>>
     }
     '/api/og-image-font': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-og-image/dist/runtime/nitro/routes/font').default>>>>
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4.38_z22fxm2eigevacibj3ing5qswi/node_modules/nuxt-og-image/dist/runtime/nitro/routes/font').default>>>>
     }
     '/api/_content/query/:qid/**:params': {
-      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
     }
     '/api/_content/query/:qid': {
-      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
     }
     '/api/_content/query': {
-      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
     }
     '/api/_content/cache.json': {
-      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/cache').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/cache').default>>>>
     }
     '/api/_content/navigation/:qid/**:params': {
-      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/navigation').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/navigation').default>>>>
     }
     '/api/_content/navigation/:qid': {
-      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/navigation').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/navigation').default>>>>
     }
     '/api/_content/navigation': {
-      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/navigation').default>>>>
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/server/api/navigation').default>>>>
     }
   }
 }

@@ -9,17 +9,17 @@ export default <Partial<Config>>{
       },
       colors: {
         green: {
-          50: '#EFFDF5',
-          100: '#D9FBE8',
-          200: '#B3F5D1',
-          300: '#75EDAE',
-          400: '#00DC82',
-          500: '#00C16A',
-          600: '#00A155',
-          700: '#007F45',
-          800: '#016538',
-          900: '#0A5331',
-          950: '#052e16'
+          50: '#FFFBF2', // Lightest orange/cream
+          100: '#FEE9C8', // Lighter orange
+          200: '#FED7A0', // Light orange
+          300: '#FDC078', // Medium orange
+          400: '#FCA550', // AWS Orange
+          500: '#F68D2E', // Darker orange
+          600: '#D4771B', // Dark orange
+          700: '#A35D15', // Darker blue/grey
+          800: '#724B10', // Dark blue/grey
+          900: '#47320A', // Darkest blue/grey
+          950: '#2C1E06' // Almost black blue/grey
         }
       }
     }

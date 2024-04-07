@@ -2,10 +2,10 @@
 
 declare module 'nitropack' {
   interface NitroRouteRules {
-    ogImage?: false | import('../../node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
+    ogImage?: false | import('../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4.38_z22fxm2eigevacibj3ing5qswi/node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
   }
   interface NitroRouteConfig {
-    ogImage?: false | import('../../node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
+    ogImage?: false | import('../../node_modules/.pnpm/nuxt-og-image@2.2.4_@nuxt+devtools@1.1.4_@vue+compiler-core@3.4.21_nuxt@3.11.1_postcss@8.4.38_z22fxm2eigevacibj3ing5qswi/node_modules/nuxt-og-image/dist/runtime/types').OgImageOptions
   }
 }
 export {}

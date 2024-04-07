@@ -4,7 +4,6 @@
 /// <reference types="@nuxt/fonts" />
 /// <reference types="@nuxthq/studio" />
 /// <reference types="nuxt-og-image" />
-/// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference types="nuxt" />
 /// <reference path="types/plugins.d.ts" />
