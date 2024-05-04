@@ -29,7 +29,7 @@ useSeoMeta({
         <MDC :value="page.hero.title" />
       </template>
 
-      <MDC :value="page.hero.code" tag="pre" class="prose prose-primary dark:prose-invert mx-auto" />
+      <img src="/assets/AWS EKS Animation.gif" alt="AWS EKS Animation" />
     </ULandingHero>
 
     <ULandingSection :title="page.features.title" :links="page.features.links">
