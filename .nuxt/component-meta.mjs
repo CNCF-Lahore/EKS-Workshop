@@ -1,2345 +1,4 @@
 export default {
-  "Callout": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-    "pascalName": "Callout",
-    "kebabName": "callout",
-    "chunkName": "components/callout",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "icon",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1600,
-                1652
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "color",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1656,
-                1746
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"primary\""
-        },
-        {
-          "name": "to",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1750,
-                1800
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "target",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1804,
-                1858
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "any",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1953,
-                2046
-              ]
-            }
-          ],
-          "schema": "any",
-          "default": "{}"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{ unwrap: string; }",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{ unwrap: string; }",
-            "schema": {
-              "unwrap": {
-                "name": "unwrap",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": true,
-                "type": "string",
-                "declarations": [],
-                "schema": "string"
-              }
-            }
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: { unwrap: string; }): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: { unwrap: string; }): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: { unwrap: string; }) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: { unwrap: string; }): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1600,
-                1652
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "color",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1656,
-                1746
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "to",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1750,
-                1800
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "target",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1804,
-                1858
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1862,
-                1949
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "ui",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1953,
-                2046
-              ]
-            }
-          ],
-          "schema": "any"
-        }
-      ]
-    }
-  },
-  "Card": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-    "pascalName": "Card",
-    "kebabName": "card",
-    "chunkName": "components/card",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "icon",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1663,
-                1715
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "color",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1719,
-                1809
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"primary\""
-        },
-        {
-          "name": "to",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1813,
-                1863
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "target",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1867,
-                1921
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "title",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1925,
-                1978
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "any",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                2073,
-                2166
-              ]
-            }
-          ],
-          "schema": "any",
-          "default": "{}"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{ unwrap: string; }",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{ unwrap: string; }",
-            "schema": {
-              "unwrap": {
-                "name": "unwrap",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": true,
-                "type": "string",
-                "declarations": [],
-                "schema": "string"
-              }
-            }
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: { unwrap: string; }): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: { unwrap: string; }): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: { unwrap: string; }) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: { unwrap: string; }): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1663,
-                1715
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "color",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1719,
-                1809
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "to",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1813,
-                1863
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "target",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1867,
-                1921
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "title",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1925,
-                1978
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1982,
-                2069
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "ui",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                2073,
-                2166
-              ]
-            }
-          ],
-          "schema": "any"
-        }
-      ]
-    }
-  },
-  "CardGroup": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
-    "pascalName": "CardGroup",
-    "kebabName": "card-group",
-    "chunkName": "components/card-group",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
-    "meta": {
-      "type": 1,
-      "props": [],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
-              "range": [
-                282,
-                369
-              ]
-            }
-          ],
-          "schema": "any"
-        }
-      ]
-    }
-  },
-  "CodeGroup": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
-    "pascalName": "CodeGroup",
-    "kebabName": "code-group",
-    "chunkName": "components/code-group",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
-    "meta": {
-      "type": 1,
-      "props": [],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
-              "range": [
-                1228,
-                1315
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "selectedIndex",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
-              "range": [
-                1487,
-                1500
-              ]
-            }
-          ],
-          "schema": "any"
-        }
-      ]
-    }
-  },
-  "Collapsible": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
-    "pascalName": "Collapsible",
-    "kebabName": "collapsible",
-    "chunkName": "components/collapsible",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "name",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
-              "range": [
-                1080,
-                1135
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"properties\""
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{ unwrap: string; }",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{ unwrap: string; }",
-            "schema": {
-              "unwrap": {
-                "name": "unwrap",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": true,
-                "type": "string",
-                "declarations": [],
-                "schema": "string"
-              }
-            }
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: { unwrap: string; }): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: { unwrap: string; }): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: { unwrap: string; }) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: { unwrap: string; }): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "name",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
-              "range": [
-                1080,
-                1135
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
-  "Field": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-    "pascalName": "Field",
-    "kebabName": "field",
-    "chunkName": "components/field",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "name",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                953,
-                1001
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                953,
-                1001
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "default",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1181,
-                1236
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "description",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1005,
-                1064
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "type",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1068,
-                1120
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "required",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "boolean",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1124,
-                1177
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "boolean",
-            "schema": [
-              "false",
-              "true"
-            ]
-          },
-          "default": "false"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "default",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1181,
-                1236
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "description",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1005,
-                1064
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "name",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                953,
-                1001
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1240,
-                1327
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1068,
-                1120
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "required",
-          "type": "boolean",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1124,
-                1177
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "boolean",
-            "schema": [
-              "false",
-              "true"
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "FieldGroup": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
-    "pascalName": "FieldGroup",
-    "kebabName": "field-group",
-    "chunkName": "components/field-group",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
-    "meta": {
-      "type": 1,
-      "props": [],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
-              "range": [
-                380,
-                467
-              ]
-            }
-          ],
-          "schema": "any"
-        }
-      ]
-    }
-  },
-  "Shortcut": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
-    "pascalName": "Shortcut",
-    "kebabName": "shortcut",
-    "chunkName": "components/shortcut",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "value",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
-              "range": [
-                285,
-                334
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
-              "range": [
-                285,
-                334
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ],
-      "slots": [],
-      "events": [],
-      "exposed": [
-        {
-          "name": "value",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
-              "range": [
-                285,
-                334
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
-              "range": [
-                338,
-                425
-              ]
-            }
-          ],
-          "schema": "any"
-        }
-      ]
-    }
-  },
-  "Tabs": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
-    "pascalName": "Tabs",
-    "kebabName": "tabs",
-    "chunkName": "components/tabs",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "selectedIndex",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "number",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
-              "range": [
-                1382,
-                1435
-              ]
-            }
-          ],
-          "schema": "number",
-          "default": "0"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "selectedIndex",
-          "type": "number",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
-              "range": [
-                1382,
-                1435
-              ]
-            }
-          ],
-          "schema": "number"
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
-              "range": [
-                1439,
-                1526
-              ]
-            }
-          ],
-          "schema": "any"
-        }
-      ]
-    }
-  },
-  "ProseCode": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-    "pascalName": "ProseCode",
-    "kebabName": "prose-code",
-    "chunkName": "components/prose-code",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "code",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                78,
-                126
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                78,
-                126
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "icon",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                130,
-                182
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "language",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                186,
-                242
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "filename",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "highlights",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "number[]",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                365,
-                444
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "array",
-            "type": "number[]",
-            "schema": [
-              "number"
-            ]
-          },
-          "default": "undefined"
-        },
-        {
-          "name": "meta",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                448,
-                500
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "hideHeader",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "boolean",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                246,
-                301
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "boolean",
-            "schema": [
-              "false",
-              "true"
-            ]
-          },
-          "default": "false"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                78,
-                126
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                130,
-                182
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "language",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                186,
-                242
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "hideHeader",
-          "type": "boolean",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                246,
-                301
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "boolean",
-            "schema": [
-              "false",
-              "true"
-            ]
-          }
-        },
-        {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "highlights",
-          "type": "number[]",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                365,
-                444
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "array",
-            "type": "number[]",
-            "schema": [
-              "number"
-            ]
-          }
-        },
-        {
-          "name": "meta",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                448,
-                500
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
-  "ProseCodeButton": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
-    "pascalName": "ProseCodeButton",
-    "kebabName": "prose-code-button",
-    "chunkName": "components/prose-code-button",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "code",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
-              "range": [
-                55,
-                103
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
-              "range": [
-                55,
-                103
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ],
-      "slots": [],
-      "events": [],
-      "exposed": [
-        {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
-              "range": [
-                55,
-                103
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
-  "ProseCodeIcon": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
-    "pascalName": "ProseCodeIcon",
-    "kebabName": "prose-code-icon",
-    "chunkName": "components/prose-code-icon",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "icon",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
-              "range": [
-                55,
-                107
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "filename",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
-              "range": [
-                111,
-                167
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        }
-      ],
-      "slots": [],
-      "events": [],
-      "exposed": [
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
-              "range": [
-                55,
-                107
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
-              "range": [
-                111,
-                167
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
-  "ProseH1": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
-    "pascalName": "ProseH1",
-    "kebabName": "prose-h1",
-    "chunkName": "components/prose-h1",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "id",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
-              "range": [
-                414,
-                460
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
-  "ProseH2": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
-    "pascalName": "ProseH2",
-    "kebabName": "prose-h2",
-    "chunkName": "components/prose-h2",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "id",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
-              "range": [
-                414,
-                460
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
-  "ProseH3": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
-    "pascalName": "ProseH3",
-    "kebabName": "prose-h3",
-    "chunkName": "components/prose-h3",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "id",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
-              "range": [
-                414,
-                460
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
-  "ProseH4": {
-    "mode": "all",
-    "global": true,
-    "prefetch": false,
-    "preload": false,
-    "filePath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
-    "pascalName": "ProseH4",
-    "kebabName": "prose-h4",
-    "chunkName": "components/prose-h4",
-    "shortPath": "node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
-    "export": "default",
-    "priority": 0,
-    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
-    "meta": {
-      "type": 1,
-      "props": [
-        {
-          "name": "id",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": true,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
-              "range": [
-                414,
-                460
-              ]
-            },
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ],
-      "slots": [
-        {
-          "name": "default",
-          "type": "{}",
-          "description": "",
-          "declarations": [],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        }
-      ],
-      "events": [],
-      "exposed": [
-        {
-          "name": "$slots",
-          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
-              "range": [
-                8475,
-                8502
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
-            "schema": {
-              "default": {
-                "name": "default",
-                "global": false,
-                "description": "",
-                "tags": [],
-                "required": false,
-                "type": "(_: {}) => any",
-                "declarations": [],
-                "schema": {
-                  "kind": "event",
-                  "type": "(_: {}): any",
-                  "schema": []
-                }
-              }
-            }
-          }
-        },
-        {
-          "name": "id",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui-pro@1.1.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
-              "range": [
-                414,
-                460
-              ]
-            }
-          ],
-          "schema": "string"
-        }
-      ]
-    }
-  },
   "ContentDoc": {
     "mode": "all",
     "global": true,
@@ -3028,8 +687,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@6703": {
-                                    "name": "__@match@6703",
+                                  "__@match@3367": {
+                                    "name": "__@match@3367",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -3055,8 +714,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@6705": {
-                                    "name": "__@replace@6705",
+                                  "__@replace@3369": {
+                                    "name": "__@replace@3369",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -3097,8 +756,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@6708": {
-                                    "name": "__@search@6708",
+                                  "__@search@3372": {
+                                    "name": "__@search@3372",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -3124,8 +783,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@6710": {
-                                    "name": "__@split@6710",
+                                  "__@split@3374": {
+                                    "name": "__@split@3374",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -3155,8 +814,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@6712": {
-                                    "name": "__@matchAll@6712",
+                                  "__@matchAll@3376": {
+                                    "name": "__@matchAll@3376",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -5311,8 +2970,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@6703": {
-                                    "name": "__@match@6703",
+                                  "__@match@3367": {
+                                    "name": "__@match@3367",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -5338,8 +2997,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@6705": {
-                                    "name": "__@replace@6705",
+                                  "__@replace@3369": {
+                                    "name": "__@replace@3369",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -5380,8 +3039,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@6708": {
-                                    "name": "__@search@6708",
+                                  "__@search@3372": {
+                                    "name": "__@search@3372",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -5407,8 +3066,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@6710": {
-                                    "name": "__@split@6710",
+                                  "__@split@3374": {
+                                    "name": "__@split@3374",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -5438,8 +3097,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@6712": {
-                                    "name": "__@matchAll@6712",
+                                  "__@matchAll@3376": {
+                                    "name": "__@matchAll@3376",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -9122,43 +6781,6 @@ export default {
           }
         },
         {
-          "name": "find",
-          "type": "\"surround\" | \"one\"",
-          "description": "A type of query to be made.",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
-              "range": [
-                6272,
-                6399
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "\"surround\" | \"one\"",
-            "schema": [
-              "\"surround\"",
-              "\"one\""
-            ]
-          }
-        },
-        {
-          "name": "sort",
-          "type": "undefined",
-          "description": "Sort results",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
-              "range": [
-                5522,
-                5641
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
           "name": "path",
           "type": "string",
           "description": "The path of the content to load from content source.",
@@ -9231,6 +6853,21 @@ export default {
           "schema": "undefined"
         },
         {
+          "name": "sort",
+          "type": "undefined",
+          "description": "Sort results",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "range": [
+                5522,
+                5641
+              ]
+            }
+          ],
+          "schema": "undefined"
+        },
+        {
           "name": "limit",
           "type": "number",
           "description": "Limit number of results",
@@ -9274,6 +6911,28 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "find",
+          "type": "\"surround\" | \"one\"",
+          "description": "A type of query to be made.",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "range": [
+                6272,
+                6399
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "\"surround\" | \"one\"",
+            "schema": [
+              "\"surround\"",
+              "\"one\""
+            ]
+          }
         },
         {
           "name": "isPartial",
@@ -9423,21 +7082,6 @@ export default {
           "schema": "Record<string, any>"
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "The tag to use for the renderer element if it is used.",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
-              "range": [
-                1151,
-                1222
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "excerpt",
           "type": "boolean",
           "description": "Whether or not to render the excerpt.",
@@ -9458,6 +7102,21 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "tag",
+          "type": "string",
+          "description": "The tag to use for the renderer element if it is used.",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "range": [
+                1151,
+                1222
+              ]
+            }
+          ],
+          "schema": "string"
         }
       ]
     }
@@ -9504,25 +7163,6 @@ export default {
           "schema": "Record<string, any>"
         },
         {
-          "name": "components",
-          "global": false,
-          "description": "The map of custom components to use for rendering.",
-          "tags": [],
-          "required": false,
-          "type": "Record<string, any>",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                675,
-                734
-              ]
-            }
-          ],
-          "schema": "Record<string, any>",
-          "default": "{}"
-        },
-        {
           "name": "data",
           "global": false,
           "description": "",
@@ -9561,6 +7201,25 @@ export default {
           "default": "\"div\""
         },
         {
+          "name": "components",
+          "global": false,
+          "description": "The map of custom components to use for rendering.",
+          "tags": [],
+          "required": false,
+          "type": "Record<string, any>",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                675,
+                734
+              ]
+            }
+          ],
+          "schema": "Record<string, any>",
+          "default": "{}"
+        },
+        {
           "name": "excerpt",
           "global": false,
           "description": "Render only the excerpt",
@@ -9591,36 +7250,6 @@ export default {
       "events": [],
       "exposed": [
         {
-          "name": "value",
-          "type": "Record<string, any>",
-          "description": "Content to render",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                359,
-                408
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
-          "name": "components",
-          "type": "Record<string, any>",
-          "description": "The map of custom components to use for rendering.",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                675,
-                734
-              ]
-            }
-          ],
-          "schema": "Record<string, any>"
-        },
-        {
           "name": "data",
           "type": "Record<string, any>",
           "description": "",
@@ -9636,19 +7265,19 @@ export default {
           "schema": "Record<string, any>"
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "Root tag to use for rendering",
+          "name": "value",
+          "type": "Record<string, any>",
+          "description": "Content to render",
           "declarations": [
             {
               "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
-                556,
-                603
+                359,
+                408
               ]
             }
           ],
-          "schema": "string"
+          "schema": "Record<string, any>"
         },
         {
           "name": "excerpt",
@@ -9671,6 +7300,36 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "tag",
+          "type": "string",
+          "description": "Root tag to use for rendering",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                556,
+                603
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "components",
+          "type": "Record<string, any>",
+          "description": "The map of custom components to use for rendering.",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                675,
+                734
+              ]
+            }
+          ],
+          "schema": "Record<string, any>"
         }
       ]
     }
@@ -9915,8 +7574,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@328": {
-                "name": "__@hasInstance@328",
+              "__@hasInstance@69": {
+                "name": "__@hasInstance@69",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -9937,8 +7596,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@330": {
-                "name": "__@metadata@330",
+              "__@metadata@71": {
+                "name": "__@metadata@71",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -10215,8 +7874,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@328": {
-                "name": "__@hasInstance@328",
+              "__@hasInstance@69": {
+                "name": "__@hasInstance@69",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10237,8 +7896,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@330": {
-                "name": "__@metadata@330",
+              "__@metadata@71": {
+                "name": "__@metadata@71",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -11709,6 +9368,257 @@ export default {
       "exposed": []
     }
   },
+  "ProseCode": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+    "pascalName": "ProseCode",
+    "kebabName": "prose-code",
+    "chunkName": "components/prose-code",
+    "shortPath": "node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+    "export": "default",
+    "priority": 0,
+    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+    "meta": {
+      "type": 1,
+      "props": [
+        {
+          "name": "code",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                76,
+                121
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "language",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                125,
+                176
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "null"
+        },
+        {
+          "name": "filename",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                180,
+                231
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "null"
+        },
+        {
+          "name": "highlights",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "number[]",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                235,
+                309
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "array",
+            "type": "number[]",
+            "schema": [
+              "number"
+            ]
+          },
+          "default": "[]"
+        },
+        {
+          "name": "meta",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                313,
+                360
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "null"
+        }
+      ],
+      "slots": [
+        {
+          "name": "default",
+          "type": "{}",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        }
+      ],
+      "events": [],
+      "exposed": [
+        {
+          "name": "$slots",
+          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "range": [
+                8475,
+                8502
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+            "schema": {
+              "default": {
+                "name": "default",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": false,
+                "type": "(_: {}) => any",
+                "declarations": [],
+                "schema": {
+                  "kind": "event",
+                  "type": "(_: {}): any",
+                  "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                76,
+                121
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                125,
+                176
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "filename",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                180,
+                231
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "highlights",
+          "type": "number[]",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                235,
+                309
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "array",
+            "type": "number[]",
+            "schema": [
+              "number"
+            ]
+          }
+        },
+        {
+          "name": "meta",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+content@2.12.1_nuxt@3.11.1_vue@3.4.21/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
+              "range": [
+                313,
+                360
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ]
+    }
+  },
   "ProseCodeInline": {
     "mode": "all",
     "global": true,
@@ -12334,6 +10244,442 @@ export default {
               }
             }
           }
+        }
+      ]
+    }
+  },
+  "ProseH1": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH1.vue",
+    "pascalName": "ProseH1",
+    "kebabName": "prose-h1",
+    "chunkName": "components/prose-h1",
+    "shortPath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH1.vue",
+    "export": "default",
+    "priority": 0,
+    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH1.vue",
+    "meta": {
+      "type": 1,
+      "props": [
+        {
+          "name": "id",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH1.vue",
+              "range": [
+                258,
+                269
+              ]
+            },
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH1.vue",
+              "range": [
+                258,
+                269
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ],
+      "slots": [
+        {
+          "name": "default",
+          "type": "{}",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        }
+      ],
+      "events": [],
+      "exposed": [
+        {
+          "name": "$slots",
+          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "range": [
+                8475,
+                8502
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+            "schema": {
+              "default": {
+                "name": "default",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": false,
+                "type": "(_: {}) => any",
+                "declarations": [],
+                "schema": {
+                  "kind": "event",
+                  "type": "(_: {}): any",
+                  "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH1.vue",
+              "range": [
+                258,
+                269
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ]
+    }
+  },
+  "ProseH2": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH2.vue",
+    "pascalName": "ProseH2",
+    "kebabName": "prose-h2",
+    "chunkName": "components/prose-h2",
+    "shortPath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH2.vue",
+    "export": "default",
+    "priority": 0,
+    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH2.vue",
+    "meta": {
+      "type": 1,
+      "props": [
+        {
+          "name": "id",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH2.vue",
+              "range": [
+                264,
+                275
+              ]
+            },
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH2.vue",
+              "range": [
+                264,
+                275
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ],
+      "slots": [
+        {
+          "name": "default",
+          "type": "{}",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        }
+      ],
+      "events": [],
+      "exposed": [
+        {
+          "name": "$slots",
+          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "range": [
+                8475,
+                8502
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+            "schema": {
+              "default": {
+                "name": "default",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": false,
+                "type": "(_: {}) => any",
+                "declarations": [],
+                "schema": {
+                  "kind": "event",
+                  "type": "(_: {}): any",
+                  "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH2.vue",
+              "range": [
+                264,
+                275
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ]
+    }
+  },
+  "ProseH3": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH3.vue",
+    "pascalName": "ProseH3",
+    "kebabName": "prose-h3",
+    "chunkName": "components/prose-h3",
+    "shortPath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH3.vue",
+    "export": "default",
+    "priority": 0,
+    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH3.vue",
+    "meta": {
+      "type": 1,
+      "props": [
+        {
+          "name": "id",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH3.vue",
+              "range": [
+                264,
+                275
+              ]
+            },
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH3.vue",
+              "range": [
+                264,
+                275
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ],
+      "slots": [
+        {
+          "name": "default",
+          "type": "{}",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        }
+      ],
+      "events": [],
+      "exposed": [
+        {
+          "name": "$slots",
+          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "range": [
+                8475,
+                8502
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+            "schema": {
+              "default": {
+                "name": "default",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": false,
+                "type": "(_: {}) => any",
+                "declarations": [],
+                "schema": {
+                  "kind": "event",
+                  "type": "(_: {}): any",
+                  "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH3.vue",
+              "range": [
+                264,
+                275
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ]
+    }
+  },
+  "ProseH4": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH4.vue",
+    "pascalName": "ProseH4",
+    "kebabName": "prose-h4",
+    "chunkName": "components/prose-h4",
+    "shortPath": "node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH4.vue",
+    "export": "default",
+    "priority": 0,
+    "fullPath": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH4.vue",
+    "meta": {
+      "type": 1,
+      "props": [
+        {
+          "name": "id",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH4.vue",
+              "range": [
+                264,
+                275
+              ]
+            },
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH4.vue",
+              "range": [
+                264,
+                275
+              ]
+            }
+          ],
+          "schema": "string"
+        }
+      ],
+      "slots": [
+        {
+          "name": "default",
+          "type": "{}",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        }
+      ],
+      "events": [],
+      "exposed": [
+        {
+          "name": "$slots",
+          "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@vue+runtime-core@3.4.21/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "range": [
+                8475,
+                8502
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "Readonly<InternalSlots> & { default?(_: {}): any; }",
+            "schema": {
+              "default": {
+                "name": "default",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": false,
+                "type": "(_: {}) => any",
+                "declarations": [],
+                "schema": {
+                  "kind": "event",
+                  "type": "(_: {}): any",
+                  "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxtjs+mdc@0.6.1/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH4.vue",
+              "range": [
+                264,
+                275
+              ]
+            }
+          ],
+          "schema": "string"
         }
       ]
     }
@@ -14287,6 +12633,61 @@ export default {
       "events": [],
       "exposed": [
         {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                6019,
+                6090
+              ]
+            }
+          ],
+          "schema": "any"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                4506,
+                4578
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "variant",
+          "type": "ButtonVariant",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                5231,
+                5358
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "ButtonVariant",
+            "schema": [
+              "\"link\"",
+              "\"solid\"",
+              "\"outline\"",
+              "\"soft\"",
+              "\"ghost\""
+            ]
+          }
+        },
+        {
           "name": "replace",
           "type": "NuxtLinkProps",
           "description": "",
@@ -14328,76 +12729,6 @@ export default {
               "\"sm\"",
               "\"lg\"",
               "\"xl\""
-            ]
-          }
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                4506,
-                4578
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                6019,
-                6090
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                5363,
-                5433
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "variant",
-          "type": "ButtonVariant",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                5231,
-                5358
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "ButtonVariant",
-            "schema": [
-              "\"link\"",
-              "\"solid\"",
-              "\"outline\"",
-              "\"soft\"",
-              "\"ghost\""
             ]
           }
         },
@@ -14552,6 +12883,21 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/workspace/EKS-Workshop/node_modules/.pnpm/@nuxt+ui@2.15.0_nuxt@3.11.1_vite@5.2.6_vue@3.4.21/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                5363,
+                5433
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "loadingIcon",

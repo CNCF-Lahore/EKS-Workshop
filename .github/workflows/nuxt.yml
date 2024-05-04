@@ -35,7 +35,7 @@ jobs:
       #   env:
       #     NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}  
 
-      #   run: yarn generate
+        run: yarn generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
