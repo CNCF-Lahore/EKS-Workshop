@@ -31,16 +31,16 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Build
-        env:
-          NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}  
+      # - name: Build
+      #   env:
+      #     NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}  
 
-        run: yarn generate
+      #   run: yarn generate
 
-      # - name: Deploy to GitHub Pages
-      #   uses: JamesIves/github-pages-deploy-action@4.1.4
-      #   with:
-      #     branch: ghpages  # Ensure this is the branch you want to deploy to.
-      #     folder: .output/public  # Ensure this correctly points to your build output directory.
-      #     token: ${{ secrets.ORG_TOKEN }}  # Consider using the default GITHUB_TOKEN if you're not deploying to a different repo.
-      #     clean: true
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: ghpages  # Ensure this is the branch you want to deploy to.
+          folder: .output/public  # Ensure this correctly points to your build output directory.
+          token: ${{ secrets.ORG_TOKEN }}  # Consider using the default GITHUB_TOKEN if you're not deploying to a different repo.
+          clean: true
